@@ -4,7 +4,7 @@ class ProductList extends Component {
 
     render() {
         return(
-            <p>This is product list { this.props.children }</p>
+            <div>This is product list { this.props.children }</div>
         );
     };
 

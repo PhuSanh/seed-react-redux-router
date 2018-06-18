@@ -1,9 +1,15 @@
 import * as Types from './../constants/ActionType';
 
-var initialState = [{
-    id: 1,
-    name: 'hello'
-}]; // String, Array, Object,...
+var initialState = [
+    {
+        id: 1,
+        name: 'hello'
+    },
+    {
+        id: 2,
+        name: 'buddy'
+    }
+]; // String, Array, Object,...
 
 const products = (state = initialState, action) => {
 
